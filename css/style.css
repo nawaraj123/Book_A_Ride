@@ -1,0 +1,338 @@
+/* ******* *******************
+-----------------------------
+-----------------------------
+Admin Panel of Website Book A Ride
+Designer : Rabin Kc
+Email : kcrabin67@gmail.com
+-----------------------------
+-----------------------------
+*****************************/ 
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+a:active, a:focus {
+	outline: none;
+ ie-dummy: expression(this.hideFocus=true);
+}
+.admin-pic img {
+	background-size: 50px 50px;
+	border-radius: 50%;
+	display: block;
+	height: 50px;
+	margin: -1px;
+	overflow: hidden;
+	width: 50px;
+	float: left;
+}
+.admin-pic {
+	padding: 10px;
+	overflow: hidden;
+	background: #2dcc70;
+}
+.admin-pic span {
+	float: left;
+	padding: 10px;
+	color: #fff;
+}
+.icn ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.icn ul li {
+	display: inline-block;
+}
+.icn ul li a {
+	color: #000;
+	display: inline-block;
+	padding: 10px 20px;
+	font-size: 15px;
+	position: relative;
+}
+.icn ul li a:hover {
+	color: #06F;
+}
+.icn ul li a span {
+	position: absolute;
+	top: -3px;
+	left: 25px;
+	background-size: 20px 20px;
+	border-radius: 50%;
+	display: block;
+	height: 20px;
+	overflow: hidden;
+	width: 20px;
+	background: #C00;
+	color: #fff;
+	text-align: center;
+	font-size: 12px;
+}
+.search {
+	text-align: right;
+}
+.ser-box {
+	position: relative;
+	padding: 8px 35px 8px 4px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: medium none;
+}
+.ser {
+	background: url(../images/search-icon-hi.png)0 -26px no-repeat;
+	border: medium none;
+	font-size: 0;
+	height: 25px;
+	right: 20px;
+	position: absolute;
+	top: 5px;
+	width: 25px;
+}
+.ser:hover {
+	background: url(../images/search-icon-hi.png)0 0 no-repeat;
+}
+.logo-t i {
+	font-size: 50px;
+	float: left;
+	color: #000;
+	padding: 0 10px 0 0;
+}
+.logo-t h4 {
+	color: #000;
+	margin: 0px;
+}
+.logo-t h4 span {
+	color: #d99f10;
+}
+.admin-nm {
+	padding: 10px 0;
+}
+.admin-nm img {
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-right: 10px;
+}
+.admin-nm h3 {
+	float: left;
+	padding: 20px 0;
+}
+.edit {
+	float: right;
+	font-size: 25px;
+	padding: 10px 0;
+}
+.edit a {
+	color: #000;
+}
+.edit a:hover {
+	color: #063;
+}
+table {
+	background: #ecf0f1;
+}
+thead {
+	background: #243342;
+	color: #fff;
+}
+ @media screen and (max-width:900px) {
+.col-md-4 {
+	width: 50%;
+}
+.logo-t {
+	float: left;
+}
+.search {
+	float: right;
+}
+.edit {
+	float: right;
+	text-align: right;
+}
+.icn {
+	clear: both;
+}
+}
+ @media screen and (max-width: 480px) {
+.col-md-4, .col-md-1 {
+	width: 100%;
+	clear: both;
+}
+.search, .ser-box {
+	width: 100%;
+	margin: 10px 0;
+}
+.icn {
+	text-align: center;
+}
+.edit {
+	text-align: right;
+}
+.ser {
+	top: 15px;
+}
+}
+.admin-nm ul {
+	list-style: none;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+.admin-nm ul li {
+	display: inline-block;
+}
+.admin-nm ul li a:hover {
+	text-decoration: none;
+}
+.admin-nm ul li a {
+	padding: 10px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border-bottom: 1px solid #999;
+	color: #fff;
+	display: inline-block;
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
+.admin-nm ul li a.green {
+	background: #2fcc73;
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
+.new-book {
+	border: 1px solid #CCC;
+	padding: 10px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	overflow:hidden;
+}
+.new-book .but {
+	background: #31cf73;
+	padding: 5px;
+	display: block;
+	color: #fff;
+	width: auto;
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
+.new-book .but:hover {
+	background: #006600;
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
+.admin-nm ul li a.hg {
+	background: #3cb63d;
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
+.admin-nm ul li a.yellow {
+	background: #efad4d;
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
+.admin-nm ul li a.red {
+	background: #e23831;
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
+.admin-nm ul li a:hover, .admin-nm ul li a.active {
+	background: #233342;
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
+.new-book label {
+	width: 20%;
+}
+.new-book input, .new-book select, .new-book textarea {
+	padding: 10px;
+	width: 30%;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #060;
+}
+.new-book input:hover, .new-book textarea:hover, .new-book select:hover {
+	border: 1px solid #0C3;
+}
+.new-book input:focus, .new-book textarea:focus, .new-book select:focus {
+	border: 1px solid #06F;
+	outline:none;
+}
+.vehicle {
+	width: 100%;
+	overflow: hidden;
+}
+.vehicle .col-md-3 {
+	overflow: hidden;
+	margin-bottom: 20px;
+	height: 370px;
+}
+.vehicle .col-md-3 img {
+	width: 100%;
+	height: auto;
+}
+.vehicle .col-md-3 label {
+	font-weight: normal;
+	margin: 0 5px;
+}
+.vehicle .col-md-3 p {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+.vehicle .col-md-3 p span {
+	color: #C00;
+}
+input:focus {
+	outline: 0 none !important;
+}
+.vehicle .col-md-3 .but {
+	background: #030;
+	color: #fff;
+	padding: 5px 10px;
+	border: 1px solid #060;
+	margin: 5px 0;
+}
+.vehicle .col-md-3 .but:hover {
+	background: #069;
+}
+.rd input{
+	padding:0px;
+	float:left;
+	margin:0px;
+	width: auto;
+	
+}
+label{
+	font-weight: normal;
+}
+
+p.click-but{
+	float:left;
+	clear:both;
+	overflow:hidden;
+	
+}
+
+p.click-but .but{
+	display: inline-block;
+	margin-right: 10px;
+}

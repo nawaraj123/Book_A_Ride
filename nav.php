@@ -1,0 +1,1 @@
+<li class="cemenu<?php echo ($_SERVER['PHP_SELF'] == '/about' ? ' active' : '');?>"><a href="<?php echo $base_url;?>/about">About</a></li>
